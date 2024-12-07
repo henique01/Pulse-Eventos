@@ -1,0 +1,14 @@
+body {
+    background-color: #d0dbf8;
+}
+menu {
+    background-color: #260D61;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+img {
+    width: 50%;
+}

@@ -1,0 +1,118 @@
+body {
+    background-color: #bbdeee;
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  menu{
+    background-color: rgb(73, 65, 94);
+    padding: 15px; /**adiciona espaço ao redor do conteudo do menu**/
+    text-align: center;/**alinhamento de texto**/
+    display: flex;/**usa um layout para alinhar **/
+    justify-content:center;/**alinha os elementos horizontalmente**/
+    height: 80px;
+    width: 100%;
+    position: relative; /*fixa o item na tela*/
+    z-index: 2; /*faz o item ficar por cima dos outros*/
+   margin-top: 0;
+
+
+  }
+    .menu-itens{
+        color: aliceblue; /**defina a cor do texto**/
+        text-decoration: none; /**retira o traço de link da palavra**/ 
+          font-size: 18px;/**define o tamanho do texto**/
+          display: inline-block ;/**deixa o item como o bloco em uma linha**/
+          padding: 10px 50px;
+    
+    
+    }
+    /*houver é um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento. Abaixo aplicamos um evento de mouse no nosso menu*/
+    .menu-itens:hover{
+        /*quando colocamos o mouse sob elemento iremos:*/
+        background-color: #bbdeee21; /*troca a cor de fundo*/
+        color: rgb(253, 251, 255); /*a cor do texto*/
+        width: auto; /*ajustaremos largura do elemento*/
+        padding: 15px 25px; /*a distancia do conteudo*/
+        text-decoration: none;
+        border-radius: 8px; /*arredondar as bordas de um elementos*/
+    }
+    
+    
+
+
+strong {
+    color: rgb(0, 0, 0);
+}
+p {
+    width: 60%;
+    font-size: large;
+}
+li {
+    text-align: start;
+    padding: 10px;
+    width: 70%;
+}
+ul {
+    width: 40%;
+}
+li::marker{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(17, 0, 255, 0.815);
+    margin-right: 100px;
+    font-size: large;
+}
+h2, h3 {
+    padding: 3px;
+    margin: 3px;
+}
+th{
+    padding-right: 10px;
+}
+table{
+    border: black 3px solid;
+}
+.carroselCard{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.89);
+height: 50px;
+color: antiquewhite;
+justify-items: center;
+padding-top: 1%;
+margin-bottom: 0%;
+width: 100%;
+
+}
+
+#telaInicial{
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px ;
+}
+
+ #showverme{
+    width: 1500px;
+    height: 800px;
+ }

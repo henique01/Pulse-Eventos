@@ -1,0 +1,106 @@
+/**quando eu quero estilizar um elemento pelo nome eu simplesmente coloco o elemento igual realizamos abaixo, estilizando a cor de fundo da tela de nosso elemento body**/
+body {
+    /**define a cor de fundo da tela**/
+    background-color: #bbdeee;
+    color: rgb(0, 0, 0);
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+menu{
+    background-color: rgb(73, 65, 94);
+    padding: 10px; /**adiciona espaço ao redor do conteudo do menu**/
+    text-align: center;/**alinhamento de texto**/
+    display: flex;/**usa um layout para alinhar **/
+    justify-content: center;/**alinha os elementos horizontalmente**/
+    height: 80px;
+    width: 100%;
+    position: fixed; /*fixa o item na tela*/
+    z-index: 2; /*faz o item ficar por cima dos outros*/
+    margin-top: 0%; /*posiciona o item a uma distancia de 0px da extremidade superior*/
+}
+.menu-itens{
+    color: aliceblue; /**defina a cor do texto**/
+    text-decoration: none; /**retira o traço de link da palavra**/ 
+      font-size: 18px;/**define o tamanho do texto**/
+      display: inline-block ;/**deixa o item como o bloco em uma linha**/
+      padding: 10px 20px;
+
+
+}
+/*houver é um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento. Abaixo aplicamos um evento de mouse no nosso menu*/
+.menu:hover{
+    /*quando colocamos o mouse sob elemento iremos:*/
+background-color: #f31818; /*troca a cor de fundo*/
+    color: rgb(81, 127, 138); /*a cor do texto*/
+    width: 220px; /*ajustaremos largura do elemento*/
+    padding: 15px 25px; /*a distancia do conteudo*/
+    border-radius: 8px; /*arredondar as bordas de um elementos*/
+}
+
+
+
+.caixa1 {
+    padding: 15px;
+    background-color: rgba(149, 188, 190, 0.795);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 20px;
+
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    position: absolute;/*posiciona um elemento em relação ao elemento pai mais prox.*/
+    top: 50%; /*posiciona a 50% da altura do elemento filho*/
+    transform: translateY(-50%); /*divide a div pela metade*/
+    width: 5%;/*ajuste da largura da seta*/
+    z-index: 1;/*garante que fiquem sobre a imagem*/
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+img{
+    height: 600px;
+    width: 600px;
+}
+
+
+
+h1, h3, p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13;
+}
+#titulo1 {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+footer{
+    background-color: rgba(0, 0, 255, 0.89);
+height: 50px;
+color: antiquewhite;
+justify-items: center;
+padding-top: 1%;
+margin-bottom: 0%;
+width: 100%;
+
+
+}
+.menu-itens:hover{
+    /*quando colocamos o mouse sob elemento iremos:*/
+background-color: #bbdeee21; /*troca a cor de fundo*/
+    color: rgba(243, 237, 248, 0.911); /*a cor do texto*/
+    width: 220px; /*ajustaremos largura do elemento*/
+    padding: 15px 25px; /*a distancia do conteudo*/
+    border-radius: 8px; /*arredondar as bordas de um elementos*/
+}
